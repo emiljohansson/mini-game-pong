@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>pong</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        #game {
+            background: #000;
+            width: 600px;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="game">
+        <img id="ball" src="white.jpg" width="25" height="25" />
+        <img id="paddle1" src="white.jpg" width="25" height="75" style="left: 25px; top: 162.5px;" />
+        <img id="paddle2" src="white.jpg" width="25" height="75" style="left: 550px; top: 162.5px;" />
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
